@@ -1,51 +1,103 @@
 package com.SugarP1g.reflection;
 
-public class GetClazz {
+import java.lang.reflect.Field;
 
-    public static void getclazz() throws ClassNotFoundException {
-        // 直接通过一个class的静态变量class获取
-        Class cls1 = String.class;
+public class GetField {
 
-        // 如果我们有一个实例变量，可以通过该实例变量提供的getClass()方法获取
-        String s = "Hello";
-        Class cls2 = s.getClass();
+    public static void getField() throws NoSuchFieldException {
+        Class stdClass = Student.class;
 
-        // 如果知道一个class的完整类名，可以通过静态方法Class.forName()获取
-        Class cls3 = Class.forName("java.lang.String");
+        // Field getField(name)：根据字段名获取某个public的field（包括父类）
+        // 获取public字段"score":
+        System.out.println("[+] getField: ");
+        System.out.println(stdClass.getField("score"));
+        // 获取继承的public字段"name":
+        System.out.println(stdClass.getField("name"));
+        System.out.println();
 
-        // 因为Class实例在JVM中是唯一的，所以，上述方法获取的Class实例是同一个实例。
-        // 可以用==比较两个Class实例:
-        System.out.println(cls1 == cls2);
-        System.out.println(cls1 == cls3);
-        System.out.println(cls2 == cls3);
-    }
+        // Field getDeclaredField(name)：根据字段名获取当前类的某个field（不包括父类）
+        // 获取private字段"grade":
+        System.out.println("[+] getDeclaredField: ");
+        System.out.println(stdClass.getDeclaredField("grade"));
+        System.out.println();
 
-    static void printClassInfo(Class cls) {
-        System.out.println("Class name: " + cls.getName());
-        System.out.println("Simple name: " + cls.getSimpleName());
-        if (cls.getPackage() != null) {
-            System.out.println("Package name: " + cls.getPackage().getName());
+        // Field[] getFields()：获取所有public的field（包括父类）
+        System.out.println("[+] getFields: ");
+        Field[] fields = stdClass.getFields();
+        for (Field field : fields) {
+            System.out.println(field);
         }
-        System.out.println("is interface: " + cls.isInterface());
-        System.out.println("is enum: " + cls.isEnum());
-        System.out.println("is array: " + cls.isArray());
-        System.out.println("is primitive: " + cls.isPrimitive());
+        System.out.println();
+
+        // Field[] getDeclaredFields()：获取当前类的所有field（不包括父类）
+        System.out.println("[+] getDeclaredFields: ");
+        Field[] fields2 = stdClass.getDeclaredFields();
+        for (Field field : fields2) {
+            System.out.println(field);
+        }
         System.out.println();
     }
 
-    public static void getClazzInfo() {
-        System.out.println("****Class String:****");
-        printClassInfo("".getClass());
-        System.out.println("****Class Runnable:****");
-        printClassInfo(Runnable.class);
-        System.out.println("****Class String[]:****");
-        printClassInfo(String[].class);
-        System.out.println("****Class int:****");
-        printClassInfo(int.class);
+    public static void getFieldInfo() throws NoSuchFieldException {
+        Class clzz = Student.class;
+        Field score_f = clzz.getField("score");
+        System.out.println("Field name: " + score_f.getName());
+        System.out.println("Field type: " + score_f.getType());
     }
 
-    public static void main(String[] args) throws ClassNotFoundException {
-        getclazz();
-        getClazzInfo();
+    public static void getFieldValue() throws NoSuchFieldException, IllegalAccessException {
+        Student stu = new Student(100, 10);
+        // 先获取Class实例
+        Class clzz = Student.class;
+        // 再获取Field实例
+        Field score_f = clzz.getField("score");
+        // 用Field.get(Object)获取指定实例的指定字段的值
+        System.out.println(score_f.get(stu));
+
+        try {
+            // 会得到一个IllegalAccessException，这是因为grade被定义为一个private字段
+            Field grade_f = clzz.getDeclaredField("grade");
+            System.out.println(grade_f.get(stu));
+        } catch (IllegalAccessException e) {
+            System.out.println("[!] Cannot access private field value, must setAccessible=true.");
+        }
+
+        try {
+            Field grade_f = clzz.getDeclaredField("grade");
+            // 调用Field.setAccessible(true)的意思是，别管这个字段是不是public，一律允许访问
+            // setAccessible(true)可能会失败。如果JVM运行期存在SecurityManager，那么它会根据规则进行检查，有可能阻止setAccessible(true)。例如，某个SecurityManager可能不允许对java和javax开头的package的类调用setAccessible(true)，这样可以保证JVM核心库的安全
+            grade_f.setAccessible(true);
+            System.out.println(grade_f.get(stu));
+        } catch (IllegalAccessException e) {
+            System.out.println("[!] Cannot access private field value, must setAccessible=true.");
+        }
     }
+
+    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+        getField();
+        getFieldInfo();
+        getFieldValue();
+    }
+}
+
+class Student extends Person {
+    public int score;
+    private int grade;
+
+    public Student(int score, int grade) {
+        this.score = score;
+        this.grade = grade;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+}
+
+class Person {
+    public String name;
 }
