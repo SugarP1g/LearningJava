@@ -8,3 +8,5 @@
 - SPI
   - [理解的Java中SPI机制](https://juejin.im/post/6844903679431016456)
 - [小议 Java 内省机制](https://xiaomi-info.github.io/2020/03/16/java-beans-introspection/)
+- 常用资源
+  - [Java 全栈知识体系](https://www.pdai.tech/)
