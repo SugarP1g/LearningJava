@@ -11,6 +11,7 @@ public class Server {
     public static void main(String[] args) throws RemoteException, AlreadyBoundException, InterruptedException, NotBoundException {
         User liming = new LocalUser("liming", 15);
 
+        // 创建注册中心
         Registry registry = LocateRegistry.createRegistry(8888);
         registry.bind("user", liming);
 
