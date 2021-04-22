@@ -4,6 +4,14 @@
   - [老大难的 Java ClassLoader 再不理解就老了](https://juejin.im/post/6844903729435508750#heading-7)
 - RMI
   - [Java RMI入门](http://scz.617.cn:8/network/202002221000.txt)
+  - [Java RMI入门(2)](http://scz.617.cn:8/network/202003081810.txt)
+  - [Java RMI入门(3)](http://scz.617.cn:8/network/202003121717.txt)
+  - [Java RMI入门(4)](http://scz.617.cn:8/network/202003191728.txt)
+  - [Java RMI入门(5)](http://scz.617.cn:8/network/202003241127.txt)
+  - [Java RMI入门(6)](http://scz.617.cn:8/network/202004011650.txt)
+  - [Java RMI入门(7)](http://scz.617.cn:8/network/202004101018.txt)
+  - [Java RMI入门(8)](http://scz.617.cn:8/network/202004141657.txt)
+  - [Java RMI入门(9)](http://scz.617.cn:8/network/202004161823.txt)
   - [Java 安全-RMI-学习总结](https://paper.seebug.org/1251/)
   - [Java RMI原理与使用](https://www.mi1k7ea.com/2019/09/01/Java-RMI%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BD%BF%E7%94%A8/)
 - SPI
