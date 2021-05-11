@@ -28,6 +28,8 @@
     - [Spring官方文档](https://spring.io/projects/spring-boot)
     - [打造功能完整的博客系统：Spring MVC实战入门](https://course.tianmaying.com/spring-mvc+start#0) 
 - 三方库
+  - Jackson
+    - [jackson docs](https://github.com/FasterXML/jackson-docs)
   - Reactor
     - [Reactor 3 Reference Guide](https://projectreactor.io/docs/core/release/reference/index.html)
     - [Reactor 指南中文版](https://projectreactor.mydoc.io/?t=47761)
