@@ -34,3 +34,4 @@
     - [mybatis官方文档](https://mybatis.org/mybatis-3/zh/index.html)
     - [mybatis action](https://github.com/zwwhnly/mybatis-action)
     - [mybatis demo](https://github.com/wzqwsrf/mybatis-demo)
+    - [MyBatis 从入门到精通](https://github.com/mybatis-book/book)
