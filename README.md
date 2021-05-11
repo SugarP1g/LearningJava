@@ -35,3 +35,5 @@
     - [mybatis action](https://github.com/zwwhnly/mybatis-action)
     - [mybatis demo](https://github.com/wzqwsrf/mybatis-demo)
     - [MyBatis 从入门到精通](https://github.com/mybatis-book/book)
+  - lombok
+    - [Lombok 应用指南](https://hezhiqiang8909.gitbook.io/java/docs/javalib/lombok)
