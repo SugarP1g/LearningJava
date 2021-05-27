@@ -2,6 +2,8 @@
 
 - ClassLoader
   - [老大难的 Java ClassLoader 再不理解就老了](https://juejin.im/post/6844903729435508750#heading-7)
+- JNDI
+  - [jndi官方教程](https://docs.oracle.com/javase/jndi/tutorial/TOC.html) 
 - RMI
   - [Java RMI入门](http://scz.617.cn:8/network/202002221000.txt)
   - [Java RMI入门(2)](http://scz.617.cn:8/network/202003081810.txt)
