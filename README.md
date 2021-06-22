@@ -22,6 +22,8 @@
 - 调试技术
   - Java Agent
     - [Java 动态调试技术原理及实践](https://tech.meituan.com/2019/11/07/java-dynamic-debugging-technology.html)
+    - 开源工具
+      - [Alibaba Arthas](https://github.com/alibaba/arthas/blob/master/README_CN.md)
 - 常用资源
   - [廖雪峰 Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744)
   - [Java 全栈知识体系](https://www.pdai.tech/)
