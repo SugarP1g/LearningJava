@@ -19,17 +19,20 @@
 - SPI
   - [理解的Java中SPI机制](https://juejin.im/post/6844903679431016456)
 - [小议 Java 内省机制](https://xiaomi-info.github.io/2020/03/16/java-beans-introspection/)
+- 调试技术
+  - Java Agent
+    - [Java 动态调试技术原理及实践](https://tech.meituan.com/2019/11/07/java-dynamic-debugging-technology.html)
 - 常用资源
   - [廖雪峰 Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744)
   - [Java 全栈知识体系](https://www.pdai.tech/)
-- Spring
-  - Spring MVC
-    - [Spring MVC Tutorial](https://github.com/RameshMF/spring-mvc-tutorial) 
-  - Spring Boot
-    - [还是廖老师的Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1266263217140032)
-    - [Spring官方文档](https://spring.io/projects/spring-boot)
-    - [打造功能完整的博客系统：Spring MVC实战入门](https://course.tianmaying.com/spring-mvc+start#0) 
 - 三方库
+  - Spring
+    - Spring MVC
+      - [Spring MVC Tutorial](https://github.com/RameshMF/spring-mvc-tutorial) 
+    - Spring Boot
+      - [还是廖老师的Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1266263217140032)
+      - [Spring官方文档](https://spring.io/projects/spring-boot)
+      - [打造功能完整的博客系统：Spring MVC实战入门](https://course.tianmaying.com/spring-mvc+start#0) 
   - Jackson
     - [jackson docs](https://github.com/FasterXML/jackson-docs)
   - Reactor
