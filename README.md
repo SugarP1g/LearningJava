@@ -22,6 +22,7 @@
 - 调试技术
   - Java Agent
     - [Java 动态调试技术原理及实践](https://tech.meituan.com/2019/11/07/java-dynamic-debugging-technology.html)
+    - [深入剖析：如何使用 Java Agent 技术对字节码进行修改](http://static.kancloud.cn/alex_wsc/javajvm/1844993)
     - 开源工具
       - [Alibaba Arthas](https://github.com/alibaba/arthas/blob/master/README_CN.md)
 - 常用资源
