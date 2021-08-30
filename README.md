@@ -2,6 +2,8 @@
 
 - ClassLoader
   - [老大难的 Java ClassLoader 再不理解就老了](https://juejin.im/post/6844903729435508750#heading-7)
+- 线程
+  - [ThreadLocal实现原理](https://tech101.cn/2019/12/09/ThreadLocal%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86)
 - JNDI
   - [jndi官方教程](https://docs.oracle.com/javase/jndi/tutorial/TOC.html) 
 - RMI
