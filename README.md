@@ -54,6 +54,8 @@
     - [MyBatis 从入门到精通](https://github.com/mybatis-book/book)
   - lombok
     - [Lombok 应用指南](https://hezhiqiang8909.gitbook.io/java/docs/javalib/lombok)
+  - FreeMarker
+    - [FreeMarker中文文档](http://freemarker.foofun.cn/index.html)
 - MISC
   - 值得一看的博客
     - [程序那些事](http://www.flydean.com/)  
