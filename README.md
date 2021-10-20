@@ -36,10 +36,10 @@
 - 三方库
   - Spring
     - Spring MVC
-      - [Spring MVC Tutorial](https://github.com/RameshMF/spring-mvc-tutorial) 
-    - Spring Boot
+      - [Spring 实战(第 5 版)](https://potoyang.gitbook.io/spring-in-action-v5/)
       - [还是廖老师的Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1266263217140032)
       - [Spring官方文档](https://spring.io/projects/spring-boot)
+      - [Spring MVC Tutorial](https://github.com/RameshMF/spring-mvc-tutorial) 
       - [打造功能完整的博客系统：Spring MVC实战入门](https://course.tianmaying.com/spring-mvc+start#0) 
   - Jackson
     - [jackson docs](https://github.com/FasterXML/jackson-docs)
