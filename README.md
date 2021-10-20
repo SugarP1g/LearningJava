@@ -58,7 +58,8 @@
     - FreeMarker
       - [FreeMarker中文文档](http://freemarker.foofun.cn/index.html)
     - Thymeleaf
-      - [Thymeleaf教程](https://waylau.gitbooks.io/thymeleaf-tutorial/content/)
+      - [Thymeleaf 教程](https://waylau.gitbooks.io/thymeleaf-tutorial/content/)
+      - [Thymeleaf 教程](https://www.docs4dev.com/docs/zh/thymeleaf/3.0/reference/)
 - MISC
   - 值得一看的博客
     - [程序那些事](http://www.flydean.com/)  
