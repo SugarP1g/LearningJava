@@ -57,8 +57,8 @@
   - 模板引擎
     - FreeMarker
       - [FreeMarker中文文档](http://freemarker.foofun.cn/index.html)
-    - thymeleaf
-      - [thymeleaf](https://waylau.gitbooks.io/thymeleaf-tutorial/content/)
+    - Thymeleaf
+      - [Thymeleaf教程](https://waylau.gitbooks.io/thymeleaf-tutorial/content/)
 - MISC
   - 值得一看的博客
     - [程序那些事](http://www.flydean.com/)  
