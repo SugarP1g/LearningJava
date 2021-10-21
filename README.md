@@ -61,6 +61,9 @@
     - Thymeleaf
       - [Thymeleaf 教程](https://waylau.gitbooks.io/thymeleaf-tutorial/content/)
       - [Thymeleaf 教程](https://www.docs4dev.com/docs/zh/thymeleaf/3.0/reference/)
+  - 表达式
+    - SpEL
+      - [Spring 表达式语言 (SpEL)](http://itmyhome.com/spring/expressions.html)
 - MISC
   - 值得一看的博客
     - [程序那些事](http://www.flydean.com/)  
