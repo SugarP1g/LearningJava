@@ -36,6 +36,7 @@
   - [Java 全栈知识体系](https://www.pdai.tech/)
 - 三方库
   - Spring
+    - [Spring初始化在线配置](https://start.spring.io/)
     - [还是廖老师的Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1266263217140032)
     - [Spring 实战(第 5 版)](https://potoyang.gitbook.io/spring-in-action-v5/)
     - [Spring源码阅读](https://github.com/seaswalker/spring-analysis)
