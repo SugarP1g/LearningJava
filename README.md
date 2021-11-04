@@ -70,5 +70,6 @@
     - Groovy
       - [Groovy 教程](https://www.w3cschool.cn/groovy/)
 - MISC
+  - [神奇的网站-可以搜索Java代码片段](https://www.tabnine.com/code)
   - 值得一看的博客
     - [程序那些事](http://www.flydean.com/)  
