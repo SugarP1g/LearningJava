@@ -50,7 +50,6 @@
     - [Reactor 指南中文版](https://projectreactor.mydoc.io/?t=47761)
     - [响应式编程简介之:Reactor](http://www.flydean.com/introduction-to-reactor/)
   - mybatis
-    - [MyBatis 全网最通俗易懂的教程](https://blog.csdn.net/wanglei19891210/article/details/105653841)
     - [mybatis官方文档](https://mybatis.org/mybatis-3/zh/index.html)
     - [mybatis action](https://github.com/zwwhnly/mybatis-action)
     - [mybatis demo](https://github.com/wzqwsrf/mybatis-demo)
