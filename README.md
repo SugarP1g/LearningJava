@@ -41,8 +41,11 @@
   - [廖雪峰 Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744)
   - [Java 全栈知识体系](https://www.pdai.tech/)
 - 三方库
-  - log4j
-    - [Log4j教程](https://www.yiibai.com/log4j)
+  - 日志  
+    - log4j
+      - [Log4j教程](https://www.yiibai.com/log4j)
+    - logback
+      - [logback 中文手册](https://logbackcn.gitbook.io/logback/)
   - Spring
     - [Spring初始化在线配置](https://start.spring.io/)
     - [还是廖老师的Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744/1266263217140032)
