@@ -72,6 +72,7 @@
     - [mybatis demo](https://github.com/wzqwsrf/mybatis-demo)
     - [MyBatis 从入门到精通](https://github.com/mybatis-book/book)
   - lombok
+    - [Lombok features](https://projectlombok.org/features/all)
     - [Lombok 应用指南](https://hezhiqiang8909.gitbook.io/java/docs/javalib/lombok)
   - 模板引擎
     - FreeMarker
