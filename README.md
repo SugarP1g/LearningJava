@@ -60,6 +60,8 @@
       - [Spring Boot Demo](https://github.com/roncoo/spring-boot-demo)
     - Spring Cloud
       - [springcloud-learning](https://github.com/macrozheng/springcloud-learning)
+    - JPA
+      - [Spring Data Jpa 实战](http://www.jackzhang.cn/spring-data-jpa-guide/)
   - Jackson
     - [jackson docs](https://github.com/FasterXML/jackson-docs)
   - Reactor
