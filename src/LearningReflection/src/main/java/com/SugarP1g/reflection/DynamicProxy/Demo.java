@@ -8,7 +8,6 @@ public class Demo {
     public static void main(String[] args) {
         // 定义一个InvocationHandler实例，它负责实现接口的方法调用
         InvocationHandler hander = new InvocationHandler() {
-            @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 System.out.println(method);
                 if (method.getName().equals("morning")) {
@@ -26,7 +25,21 @@ public class Demo {
     }
 }
 
-
+/**
+ * 动态代理实际上是JVM在运行期动态创建class字节码并加载的过程，它并没有什么黑魔法，把上面的动态代理改写为静态实现类大概长这样：
+ * public class HelloDynamicProxy implements Hello {
+ *     InvocationHandler handler;
+ *     public HelloDynamicProxy(InvocationHandler handler) {
+ *         this.handler = handler;
+ *     }
+ *     public void morning(String name) {
+ *         handler.invoke(
+ *            this,
+ *            Hello.class.getMethod("morning", String.class),
+ *            new Object[] { name });
+ *     }
+ * }
+ */
 interface Hello {
     void morning(String name);
 }

@@ -89,7 +89,10 @@
       - [Spring 表达式语言 (SpEL)](http://itmyhome.com/spring/expressions.html)
     - Groovy
       - [Groovy 教程](https://www.w3cschool.cn/groovy/)
+- 工具
+  - IDEA
+    - [IntelliJ IDEA 使用指南](https://javaguide.cn/idea-tutorial/)
 - MISC
   - [神奇的网站-可以搜索Java代码片段](https://www.tabnine.com/code)
   - 值得一看的博客
-    - [程序那些事](http://www.flydean.com/)  
+    - [程序那些事](http://www.flydean.com/)
