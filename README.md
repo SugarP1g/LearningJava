@@ -7,6 +7,7 @@
 - ClassLoader
   - [老大难的 Java ClassLoader 再不理解就老了](https://juejin.im/post/6844903729435508750#heading-7)
 - ASM
+  - [Java ASM系列](https://lsieun.github.io/java/asm/index.html)
   - [ASM4 使用指南](http://houseyoung.cn/wordpress/wp-content/uploads/2018/10/ASM4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.pdf)
   - [asm中文文档](https://bugstack.cn/md/bytecode/asm-document/1%E5%BC%95%E8%A8%80.html)
   - [ASM字节码编程 | 如果你只写CRUD，那这种技术你永远碰不到](https://bugstack.cn/md/bytecode/asm/2020-03-25-%5BASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%5D%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD%EF%BC%8C%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)
