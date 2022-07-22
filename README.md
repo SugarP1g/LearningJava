@@ -62,6 +62,8 @@
       - [Spring Boot 2.0 最全使用教程](https://github.com/ityouknow/spring-boot-examples)
       - [Spring Boot Demo](https://github.com/xkcoding/spring-boot-demo)
       - [Spring Boot Demo](https://github.com/roncoo/spring-boot-demo)
+    - Spring Security
+      - [68篇干货，手把手教你通关 Spring Security！](https://segmentfault.com/a/1190000038275203)
     - Spring Cloud
       - [springcloud-learning](https://github.com/macrozheng/springcloud-learning)
     - JPA
